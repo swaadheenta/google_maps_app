@@ -8,7 +8,7 @@ class Homepage extends StatefulWidget {
 
 class _HomepageState extends State<Homepage> {
   @override
-  bool showMap = false;
+  /* bool showMap = false;
   void initState() {
     super.initState();
     Future.delayed(const Duration(milliseconds: 250), () {
@@ -16,7 +16,7 @@ class _HomepageState extends State<Homepage> {
         showMap = true;
       });
     });
-  }
+  }*/
 
   Widget build(BuildContext context) {
     return googlemaps();
